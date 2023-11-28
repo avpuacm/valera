@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Formulario1.css">
+</head>
+<body>
+        <h1>FORMULARIOS</h1>
+
+        <form action="enviar por correo" method="post">
+         <ul>
+             <li>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre de usuario">
+             </li>
+   
+            <li>
+                  <label for="mail">Correo electrónico</label>
+                  <input type="email" name="correo del usuario" id="mail">
+            </li>
+            
+            <li>
+                   <label for="contraseña">Contraseña</label>
+                   <input type="password">
+            </li>
+
+            <label class="Carrera">Carrera</label>
+              <select name="Carrera" id="select"> 
+                <option value="0">Ejija su carrera </option>
+                <option value="1">Nutrición </option>
+              <option value="2" selected>Promoción de la Salud </option>
+              <option value="3">Ingeniería </option>
+        |     <option value="4">Modelación Matemática</option>
+              </select>
+
+
+            <li>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="msg" cols="30" rows="10"></textarea>
+            </li>    
+            <li>
+                <button class="boton">Enviar Formulario</button>
+                <input type="reset" class="boton">
+            </li>
+            
+          </ul>  
+                             
+        </form>
+</body>
+</html>
